@@ -1,0 +1,204 @@
+:root {
+  --color-card: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: whitesmoke;
+}
+
+.Main-Nav {
+  position: fixed;
+  top: 0px;
+}
+
+.nav-container {
+  background: linear-gradient(90deg, rgb(155, 155, 209) 41%, rgb(148, 216, 229) 94%);
+}
+
+.navbar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline;
+  margin: 15px 10px;
+}
+
+.Profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  margin-right: 10px;
+}
+
+.Profile-img:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  transition: 0.2s;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link:hover {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.box {
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  margin-top: 70px;
+  width: 100%;
+  height: 100vh;
+  border-radius: 10px;
+}
+
+.innerbox {
+  width: 60%;
+  height: 100vh;
+  background: white;
+  margin-left: 20px; /* Start from the left */
+  border-radius: 10px;
+}
+
+.story {
+  background-color: rgb(204, 198, 198);
+  border-radius: 10px;
+}
+
+/* Create Post */
+.postForm {
+  width: 50%;
+  margin-left: 20px; /* Aligning to left */
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Post-input {
+  border-radius: 30px;
+}
+
+.input-button {
+  width: 100px;
+  border-radius: 20px;
+}
+
+.postForm .form-top {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  width: 80%;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.postForm .form-top input {
+  background: transparent;
+  width: 100%;
+  padding: 1rem;
+  color: var(--color-primary);
+}
+
+.post-categories {
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.post-categories input {
+  border: solid 1px;
+}
+
+/* Feeds */
+.Container-Post {
+  width: 60%;
+  margin-left: 20px; /* Start from the left */
+}
+
+.create-post-btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  margin-left: 0; /* Align button to the left */
+}
+
+.Feeds {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start; /* Ensure everything inside aligns left */
+}
+
+.Feed {
+  background: var(--color-card);
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 0.85rem;
+  text-align: left;
+  width: 100%;
+}
+
+.Feed .User {
+  display: flex;
+  gap: 1rem;
+}
+
+.Feed .Head {
+  margin-left: 0; /* Aligning text to the left */
+}
+
+.Feed .Photo {
+  border-radius: var(--card-border-radius);
+  margin: 0.7rem 0;
+}
+
+.First-Post {
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
+  margin: 0.6rem;
+  gap: 15px;
+}
+
+.interaction-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.like-by {
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: left;
+}

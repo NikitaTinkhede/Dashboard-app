@@ -1,0 +1,15 @@
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    /* border-bottom: 1px solid #ddd; */
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2099/2099058.png'); /* Right-click icon */
+    background-size: cover;
+}

@@ -1,0 +1,48 @@
+.app-title {
+    text-align: left; /* Align title to the left */
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  .Container-Post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align everything to the left */
+    padding-left: 20px; /* Add some spacing */
+  }
+  
+  .Feeds {
+    width: 60%;
+    margin-left: 0; /* Start from the left */
+  }
+  
+  .Feed {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .AddPost {
+    width: 60%;
+    margin-left: 0; /* Align add post button to the left */
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    margin-top: 10px;
+  }
+  
+  .interaction-buttons span {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .no-posts {
+    text-align: left;
+    color: #777;
+  }
+  

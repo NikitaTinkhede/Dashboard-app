@@ -1,0 +1,72 @@
+.Container-Post {
+    width: 60%;
+    margin-left: 20px; /* Start from the left */
+  }
+  
+  .create-post-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    margin-left: 0; /* Align button to the left */
+  }
+  
+  .Feeds {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start; /* Ensure everything inside aligns left */
+  }
+  
+  .Feed {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left; /* Ensure text inside is left-aligned */
+    width: 100%;
+  }
+  
+  .Head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .User {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Profile-Photo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .Photo img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    margin-top: 10px;
+    gap: 15px;
+  }
+  
+  .Like {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .like-by {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: left; /* Ensure likes text aligns left */
+  }
+  
